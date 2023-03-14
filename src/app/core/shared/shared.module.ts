@@ -1,17 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
+import { LoginBoxComponent } from './components/login-box/login-box.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [LoginBoxComponent],
   imports: [
-    CommonModule,
-    RouterModule
+    CommonModule
   ],
   exports:[
-    RouterModule
+    LoginBoxComponent
   ]
 })
 export class SharedModule { }
